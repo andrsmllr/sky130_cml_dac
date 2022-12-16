@@ -64,7 +64,7 @@ device=resistor
 m=1}
 C {sky130_fd_pr/nfet_01v8.sym} 1310 -1210 0 0 {name=M1
 L=0.15
-W=18
+W=20
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
@@ -78,7 +78,7 @@ spiceprefix=X
 }
 C {sky130_fd_pr/nfet_01v8.sym} 1520 -1210 0 1 {name=M2
 L=0.15
-W=18
+W=20
 nf=1 
 mult=1
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
