@@ -8,6 +8,8 @@ The long-term goal is to design a 12-bit DAC and do a characterization (max samp
 Current mode logic (CML) is a logic family operating on differential voltage signals. This makes CML a very fast logic family often used for high-speed digital to analog converters and other mixed-signal circuits.
 The way CML achieves this is by "steering" a constant current between alternative branches in the circuit. Changing the flow of current is much faster than changing the voltage on a net, because no capacitors need to be charged or discharged.
 
+<img src="xschem/cml_inverter.png" width=612>
+
 ## Design Notes
 
 The cells are designed with the following goals/parameters in mind, which can be fine
